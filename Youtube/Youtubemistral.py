@@ -93,7 +93,7 @@ class YouTubeSummarizer:
         try:
             import requests
             response = requests.post(
-                "http://209.137.198.205:11434/api/generate",
+                "http://X.137.X.X:11434/api/generate",
                 json={"model": self.model, "prompt": prompt}
             )
             if response.status_code == 200:
