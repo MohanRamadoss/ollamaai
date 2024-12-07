@@ -15,7 +15,7 @@ class Language(Enum):
     THAI = "Thai"
 
 class MultilingualTranslator:
-    def __init__(self, api_url: str = "http://209.137.198.206:11434"):
+    def __init__(self, api_url: str = "http://x.x.x.x:11434"):
         """
         Initialize the multilingual translator
         
